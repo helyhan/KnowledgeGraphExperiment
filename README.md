@@ -1,6 +1,8 @@
 # IFB398 Knowledge Graph: Setting Up and Running the Neo4j Database Connection
-Creating a Knowledge Graph in Neo4j 
 
+## Introduction
+Generating a Knowledge Graph with Neo4j:
+This utility translates a structured JSON file, detailing module dependencies, into a visual knowledge graph in Neo4j. Designed primarily for developers, this tool turns package dependency data into an intuitive graphical format, aiding in deeper insights and understanding.
 
 ## Prerequisites:
 Before proceeding, make sure you have the following:
