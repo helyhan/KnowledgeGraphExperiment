@@ -30,7 +30,7 @@ An account with Neo4j, specifically for an AuraDB instance.
 
 `node ./index.js`
 
-### 4. Viewing the Results:
+### 4. OUTPUT - Viewing the Results:
 - Visit the Neo4j AuraDB console and navigate to the "Query" tab.
 - On the left menu under the "Query" tab, click on the "DEPENDS_ON" option to filter and view these specific relationships.
 
