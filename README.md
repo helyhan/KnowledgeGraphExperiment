@@ -36,11 +36,12 @@ An account with Neo4j, specifically for an AuraDB instance.
 - Visit the Neo4j AuraDB console and navigate to the "Query" tab.
 - On the left menu under the "Query" tab, click on the "DEPENDS_ON" option to filter and view these specific relationships.
 
-![WhatsApp Image 2023-10-05 at 23 15 42_2b1c945a](https://github.com/helyhan/KnowledgeGraphExperiment/assets/97140666/59bc53aa-1439-4341-85d1-8a5e1c2be52c)
+![my_image1](https://github.com/helyhan/KnowledgeGraphExperiment/assets/97140666/0a87d18c-53a3-492d-8e5f-00e5aadec6df)
+
 
 - Here, you should be able to visualise the relationships and nodes that have been generated from your data. Below is an example of package dependencies of matplotlib
 
-![WhatsApp Image 2023-10-05 at 23 15 50_2b944edb](https://github.com/helyhan/KnowledgeGraphExperiment/assets/97140666/fa267923-927e-4673-9134-e3f458a55315)
+![my_image2](https://github.com/helyhan/KnowledgeGraphExperiment/assets/97140666/be1386e9-d753-47f7-998d-3864b2dccbe6)
 
 #### Important Notes:
 - Please be aware that the Package.deleteAllNodesAndLinks() function at the start of index.js will clear the database every time you run the script. If you wish to retain existing nodes and links, consider commenting out or removing this function call.
