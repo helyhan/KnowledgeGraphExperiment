@@ -41,7 +41,7 @@ An account with Neo4j, specifically for an AuraDB instance.
 - Please be aware that the Package.deleteAllNodesAndLinks() function at the start of index.js will clear the database every time you run the script. If you wish to retain existing nodes and links, consider commenting out or removing this function call.
 - This setup does not include the management of sensitive database credentials through environment variables. 
 - Always ensure that your credentials are securely stored and not hard-coded or publicly exposed.
-- The GraphQLExperiment branch is experimental - can create nodes but unable to map relationships ( ignore this file ). 
+- The GraphQLExperiment branch is experimental - unable to map relationships. 
 
 ### IFB398 Project Notes:
 - This project experimentation was carried out in JavaScript coding language.
