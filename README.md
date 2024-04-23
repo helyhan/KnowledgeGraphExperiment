@@ -1,4 +1,4 @@
-# Knowledge Graph: Setting Up and Running the Neo4j Database Connection
+# Knowledge Graph Experimental Code: Setting Up and Running the Neo4j Database Connection
 
 ## Introduction
 Generating a Knowledge Graph with Neo4j:
