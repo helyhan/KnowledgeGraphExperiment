@@ -7,11 +7,13 @@ await Package.deleteAllNodesAndLinks()
 
 // Recursively create package nodes
 async function processPackage(parentName, dependencies) {
-    for (let dependency of dependencies) { // loop through dependencies
+    // loop through dependencies
+    for (let dependency of dependencies) { 
         let nodeName = `${dependency.name} ${dependency.version}`; 
-        await Package.createNode(nodeName); // create nodes
-        await Package.linkNodes(parentName, nodeName); // create relationships
-
+        // create nodes
+        await Package.createNode(nodeName); 
+        // create relationships
+        await Package.linkNodes(parentName, nodeName); 
         // If current dependency has its own dependencies, 
         // recursively will call itself with the current dependency as the new "parent" 
         if (dependency.dependencies && dependency.dependencies.length > 0) {
@@ -20,11 +22,11 @@ async function processPackage(parentName, dependencies) {
     } 
 }
 
-// Set the package file name
-const file = 'goblin.json'  // have also tested -> hangar-matplotlib.json
+// Set the package file name - Can select from data/python-dep example json files provided
+const file = 'goblin.json'  
 
-// Read the package from the json file
-const pack = await File.parse(file) // package is a reserved word, can't use
+// Read the package from the json file - note package is a reserved word, can't use
+const pack = await File.parse(file) 
 
 // Create a node for the main package i.e. goblin 
 let mainNodeName = `${pack.name} ${pack.version}`;
