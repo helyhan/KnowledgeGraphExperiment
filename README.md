@@ -42,7 +42,7 @@ An account with Neo4j, specifically for an AuraDB instance.
 - This setup does not include the management of sensitive database credentials through environment variables. 
 - Always ensure that your credentials are securely stored and not hard-coded or publicly exposed.
 
-### IFB398 Project Notes:
+### Project Notes:
 - This project experimentation was carried out in JavaScript coding language.
 - Given the decision is to use python coding language for the project there are two options moving forward:
     1. Rewrite the code in python
