@@ -44,10 +44,7 @@ An account with Neo4j, specifically for an AuraDB instance.
 
 ### Project Notes:
 - This project experimentation was carried out in JavaScript coding language.
-- Given the decision is to use python coding language for the project there are two options moving forward:
-    1. Rewrite the code in python
-    2. Package this code up into a library so that it can be easily utilised within the main python project
-- GraphQL Experimentation is also included ( for viewing purposes only ) 
+- GraphQL Experimentation is also included ( for viewing purposes only ).
   
 ### Conclusion:
 With these steps, you should now be able to process a file, run the Node.js script, and visualise the resulting data
